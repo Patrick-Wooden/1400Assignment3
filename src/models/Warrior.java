@@ -1,5 +1,7 @@
 package models;
 
+import Weapons.Weapon;
+
 public class Warrior extends PlayerCharacter{
     public Warrior(String name, int hitPoints, int defense, int agility, int baseAttack, Weapon weapon) {
         super(name, hitPoints, defense, agility, baseAttack, weapon);

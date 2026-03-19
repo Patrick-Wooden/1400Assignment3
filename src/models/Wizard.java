@@ -1,5 +1,7 @@
 package models;
 
+import Weapons.Weapon;
+
 public class Wizard extends PlayerCharacter{
 
     public Wizard(String name, int hitPoints, int defense, int agility, int baseAttack, Weapon weapon) {

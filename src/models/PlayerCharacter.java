@@ -1,5 +1,7 @@
 package models;
 
+import Weapons.Weapon;
+
 public class PlayerCharacter extends Character{
     private Weapon weapon;
 
