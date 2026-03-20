@@ -1,4 +1,4 @@
-package models;
+package Models;
 
 import Weapons.Weapon;
 
@@ -12,7 +12,7 @@ public class Wizard extends PlayerCharacter{
     // and certian attributes you give your character drastically affect their power
     @Override
     public int calculatePower(){
-        return getBaseAttack() + (getAgility() * 2) + getWeapon().getDamage();
+        return getBaseAttack() + (getAgility() * 2) + getWeapon().getAttackModifier();
     }
 
     @Override

@@ -1,4 +1,4 @@
-package models;
+package Models;
 
 public abstract class Character {
     //below are the vars I decided on. All of these are in Character as from looking at the example monster has these values also

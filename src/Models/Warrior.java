@@ -1,4 +1,4 @@
-package models;
+package Models;
 
 import Weapons.Weapon;
 
@@ -11,7 +11,7 @@ public class Warrior extends PlayerCharacter{
     // and certian attributes you give your character drastically affect their power
     @Override
     public int calculatePower(){
-        return (getBaseAttack() * 2) + getDefense() + getWeapon().getDamage();
+        return (getBaseAttack() * 2) + getDefense() + getWeapon().getAttackModifier();
     }
 
     //override the tostring to add the class the character is

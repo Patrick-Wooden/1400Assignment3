@@ -1,4 +1,4 @@
-package models;
+package Models;
 
 import Weapons.Weapon;
 
@@ -22,13 +22,15 @@ public class PlayerCharacter extends Character{
     //now we override our abstract method calculatePower which adds up the characters agility base attack and weapon dmg
     @Override
     public int calculatePower(){
-        return getAgility() + getBaseAttack()+ weapon.getDamage();
+        return getAgility() + getBaseAttack()+ weapon.getAttackModifier();
     }
 
     @Override
     public String toString() {
         return super.toString() +
                 "\nWeapon: " + weapon.getName() +
-                " (DMG: " + weapon.getDamage() + ")";
+                " (ATK Mod: " + weapon.getAttackModifier() +
+                ", Weight: " + weapon.getWeight() + ")";
+
     }
 }

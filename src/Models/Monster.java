@@ -1,4 +1,4 @@
-package models;
+package Models;
 
 public class Monster extends Character{
     private String monsterType;
