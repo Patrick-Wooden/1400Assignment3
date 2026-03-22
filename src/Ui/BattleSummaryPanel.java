@@ -59,6 +59,7 @@ public class BattleSummaryPanel extends JPanel{
         pHeader.setBounds(50, 250, 300, 30);
         add(pHeader);
 
+
         JLabel pLine = new JLabel("-----------------------------");
         pLine.setFont(labelFont);
         pLine.setBounds(50, 280, 300, 30);

@@ -13,10 +13,6 @@ public class Monster extends Character{
         return monsterType;
     }
 
-    public void setMonsterType(String monsterType) {
-        this.monsterType = monsterType;
-    }
-
     //I decided to make the power for the monster be calculated by baseattack, defence and agility
     @Override
     public int calculatePower(){

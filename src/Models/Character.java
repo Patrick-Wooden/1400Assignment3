@@ -22,40 +22,20 @@ public abstract class Character {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public int getHitPoints() {
         return hitPoints;
-    }
-
-    public void setHitPoints(int hitPoints) {
-        this.hitPoints = hitPoints;
     }
 
     public int getDefense() {
         return defense;
     }
 
-    public void setDefense(int defense) {
-        this.defense = defense;
-    }
-
     public int getBaseAttack() {
         return baseAttack;
     }
 
-    public void setBaseAttack(int baseAttack) {
-        this.baseAttack = baseAttack;
-    }
-
     public int getAgility() {
         return agility;
-    }
-
-    public void setAgility(int agility) {
-        this.agility = agility;
     }
 
     //Below is the abstract method for calculating power. Each character class and monster class will overwrite it

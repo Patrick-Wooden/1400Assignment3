@@ -15,10 +15,6 @@ public class PlayerCharacter extends Character{
         return weapon;
     }
 
-    public void setWeapon(Weapon weapon){
-        this.weapon = weapon;
-    }
-
     //now we override our abstract method calculatePower which adds up the characters agility base attack and weapon dmg
     @Override
     public int calculatePower(){

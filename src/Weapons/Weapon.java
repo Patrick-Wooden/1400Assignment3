@@ -1,11 +1,5 @@
 package Weapons;
 
-/**
- * This is the main weapon class that children will be based off
- * Each weapon has a name, a fixed dmg value and weight
- *
- */
-
 public class Weapon {
     //create private vars
     private String name;
